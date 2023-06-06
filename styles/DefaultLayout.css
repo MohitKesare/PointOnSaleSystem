@@ -1,0 +1,48 @@
+.ant-layout-has-sider {
+  padding: 5px !important;
+}
+.ant-layout.ant-layout-has-sider {
+  height: 100vh;
+}
+
+.ant-layout-sider {
+  overflow: hidden !important;
+  border-radius: 10px !important;
+}
+.anticon svg {
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.ant-layout-header {
+  box-shadow: 0 0 3px #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+.ant-layout-content {
+  box-shadow: 0 0 3px #ccc;
+  border-radius: 5px;
+}
+.site-layout .site-layout-background {
+  overflow: auto;
+}
+.ant-layout-header {
+  line-height: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-item {
+  padding-left: 20px;
+  padding-right: 30px;
+  display: flex;
+  cursor: pointer;
+}
+.cart-item p {
+  margin-top: 10px;
+  font-weight: bold;
+  margin-right: 10px;
+}
